@@ -1,0 +1,162 @@
+.section-1{
+    width: 100%;
+    height: 100vh;
+}
+.background-img{
+    background: url(images/bg-1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 5%;
+    position: relative;
+}
+
+.background-img::after {
+    content: "";
+    position: absolute;
+    top: 80%;
+    left: -2%;
+    width: 100%;
+    height: 100%;
+    background-image: url(images/bg-2.png);
+    background-repeat: no-repeat;
+    background-size: 150px;
+    z-index: -1;
+}
+.carousel-item{
+    padding-bottom: 40px;
+}
+
+.carousel-item h1{
+    font-size: 30px;
+    font-weight: 400;
+}
+.carousel-item img{
+    width: 100%;
+}
+.cus-info {
+    width: 70%;
+    font-size: 14px;
+    font-weight: 200;
+    padding: 20px 0 40px 0;
+}
+.carousel-indicators [data-bs-target] {
+    width: 12px;
+    height: 8px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    background-color: #c4c3c3;
+}
+.carousel-indicators .active {
+    width: 25px;
+    height: 6px;
+    border: 1px solid #fccb06;
+    border-radius: 5px;
+    background: linear-gradient(to right, #FF9C35 , #FFD019)
+}
+
+.seeall-btn{
+    font-size: 18px;
+    text-decoration: none;
+    color: #FF9D00;
+}
+.seeall-btn:hover{
+    color: #FFD019;
+}
+.categorie{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    margin-bottom: 50px;
+    border-radius: 20px;
+}
+.categorie img{
+ width: 100px;
+}
+.categorie h3{
+    color: #fff;
+   }
+.categorie-1{
+    background: linear-gradient(to right, #FF9C35, #FFD019);
+    
+}
+.categorie-2{
+    background:linear-gradient(to bottom, #FF589B, #FF136F);
+}
+.categorie-3{
+    background:linear-gradient(to right, #4289FF, #3F07F8);
+}
+.section-2{
+    padding: 50px 0;
+}
+.product {
+    background: #fff;
+    padding: 45px;
+    border-radius: 20px;
+    text-align: center;
+    margin-bottom: 50px;
+    box-shadow: 10px 10px 25px #e3dfdf;
+    transition: all 0.3s ease-in-out;
+}
+.product:hover {
+   transform: translate(5px, 5px)
+}
+.cus-card img{
+    width: 100%;
+}
+.cus-card h2{
+    font-size: 22px;
+    font-weight: 400;
+    padding-top: 50px;
+}
+.cus-card p{
+    font-size: 16px;
+    font-weight: 200;
+    padding: 10px 0;
+}
+.cus-card button{
+   margin-top: 10px;
+}
+.cusbt-2{
+    border-radius: 0 5px 5px 0;
+}
+.cusbt-2:hover{
+    color: #e2e2e2;
+}
+.categorie-head{
+ padding: 50px 0;
+}
+.categories-heading{
+    font-size: 26px;
+    font-weight: 400;
+   
+}
+.heading-bottom{
+   position: relative;
+}
+.heading-bottom::after{
+   content: "";
+   position: absolute;
+   width: 100px;
+   height: 5px;
+   top: 100%;
+   left: 50%;
+   border: 1px solid #fccb06;
+   border-radius: 5px;
+   background: linear-gradient(to right, #FFD019 , #FF9C35);
+   margin-top: 5px;
+   transform: translate(-50%);
+}
+.cus-img{
+    width: 200px;
+    height: 200px;
+    background: #fff;
+    margin-bottom: 30px;
+    border-radius: 20px 5px 30px 5px;
+    box-shadow: 10px 10px 50px #c7c2c2;
+    transition: all 0.3s ease;
+}
+
+.cus-img:hover{
+    transform: translate(5px, 5px);
+}
